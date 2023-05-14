@@ -1,179 +1,141 @@
-body{
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 120%;
-	background-color: #FFDEB4;
-	color: #7D1E6A;
-
-}
-
-.profilepic{
-	height: 25%;
-	width: 25%	;
-	background-color: #FFDEB4;
-}
-
-.image1{
-    height: 35%;
-	width: 35%	;
-	float: left;
-	margin-right: 30px;
-	
-}
-.image2{
-    height: 35%;
-	width: 35%	;
-	float: right;
-	margin-right: 30px;
-}
 
 
-h2{
-	font-family: 'Pacifico', cursive;
-}
-
-h1{
-	
-	font-family: 'Sacramento', cursive;
-	font-size: 4.625rem;
-	margin: 50 auto 0 auto;
-}
-
-h3{
-	font-family: 'Open Sans', sans-serif;
-}
-
-div{
-	background-color: #FFDEB4;
-}
-
-.top-container{
-	background-color: #F6F7C1;
-	position: relative;
-	padding: 100px;
-	margin: 0 auto 0 auto;
-}
-
-.middle-container{
-background-color: #FFDEB4;
-line-height: 2;
-padding: 25px;
-}
-
-.bottom-container{
-background-color: #F6F7C1;
-padding: 50px 0px 20px;
-line-height: 3;
-
-}
-
-.dev{
-	text-decoration: underline;
-}
-
-.top-cloud{
-	position: absolute;
-	right:200px ;
-	top: 50px ;
-/*	position: fixed;*/
-}
-
-.bottom-cloud{
-	position: absolute	;
-	left: 230px;
-	top: 400px;
-/*	position: fixed;*/
-	
-}
-
-.skill-row{
-width: 50%;
-margin:100px auto;
-text-align: left;
-line-height: 4;
-}
-
-hr{
-	border: 5px dotted ;
-	border-bottom: none;
-    border-color: DEBACE;
-    width: 90%;
-    margin: auto;
-}
-
-.contact-message{
-	width: 40%;
-	margin: 40px auto 60px;
-}
-
-a{
-	margin: 10px 20px;
-	text-decoration: none;
-	color: #606b39;
-}
-
-a:hover{
-	color:#FF8D29 ;
-}
-
-.btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #606b39;
-  font-size: 20px;
-  background: #ccb731;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #1aed60;
-  text-decoration: none;
-}
-
-.copyright{
-	font-size: 0.75rem;
-	padding-top: 10px;
-}
-
-
-
-
-
-/* For screens smaller than 600px */
-@media (max-width: 600px) {
-	.top-container {
-	  text-align: center;
+	body{
+		margin: 0;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 120%;
+		background-color: #FFDEB4;
+		color: #7D1E6A;
 	}
-	.top-cloud, .bottom-cloud, .mount {
-	  display: none;
+
+	.profilepic{
+		height: 25%;
+		width: 25%;
+		background-color: #FFDEB4;
 	}
-  }
-  
-  /* For screens between 600px and 900px */
-  @media (min-width: 600px) and (max-width: 900px) {
-	.top-container {
-	  text-align: center;
+
+	.image1{
+	    height: 35%;
+		width: 35%;
+		float: left;
+		margin-right: 30px;
 	}
-	.top-cloud, .bottom-cloud {
-	  display: none;
+
+	.image2{
+	    height: 35%;
+		width: 35%;
+		float: right;
+		margin-right: 30px;
 	}
-  }
-  
-  
-  
-  
-  /* Responsive styles for the bottom container */
-  @media (max-width: 600px) {
-	.bottom-container {
-	  display: flex;
-	  flex-direction: column;
+
+
+	h2{
+		font-family: 'Pacifico', cursive;
 	}
-	.footer-link {
-	  margin: 10px 0;
+
+	h1{
+		font-family: 'Sacramento', cursive;
+		font-size: 4.625rem;
+		margin: 50px auto 0 auto;
 	}
-  }
-  
+
+	h3{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	div{
+		background-color: #FFDEB4;
+	}
+
+	.top-container{
+		background-color: #FFDEB4;
+		position: relative;
+		padding: 100px;
+		margin: 0 auto;
+	}
+
+	.middle-container{
+		background-color: #FFDEB4;
+		line-height: 2;
+		padding: 25px;
+	}
+
+	.bottom-container{
+		background-color: #FFDEB4;
+		padding: 50px 0px 20px;
+		line-height: 3;
+	}
+
+	.dev{
+		text-decoration: underline;
+	}
+
+	.top-cloud{
+		position: absolute;
+		right: 200px;
+		top: 50px;
+	}
+
+	.bottom-cloud{
+		position: absolute;
+		left: 230px;
+		top: 400px;
+	}
+
+	.skill-row{
+		width: 50%;
+		margin: 100px auto;
+		text-align: left;
+		line-height: 4;
+	}
+
+	hr{
+		border: 5px dotted;
+		border-bottom: none;
+	    border-color: #DEBACE;
+	    width: 90%;
+	    margin: auto;
+	}
+
+	.contact-message{
+		width: 40%;
+		margin: 40px auto 60px;
+	}
+
+	a{
+		margin: 10px 20px;
+		text-decoration: none;
+		color: #606b39;
+	}
+
+	a:hover{
+		color: #FF8D29;
+	}
+
+	.btn {
+	  -webkit-border-radius: 28px;
+	  -moz-border-radius: 28px;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #606b39;
+	  font-size: 20px;
+	  background: #ccb731;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+	}
+
+	.btn:hover {
+	  background: #1aed60;
+	  text-decoration: none;
+	}
+
+	/* Responsive styles for small screens */
+	@media (max-width: 600px) {
+		.top-container {
+		  text-align: center;
+		  padding: 50px;
+		}
+		.top-cloud, .bottom-cloud, .mount {
+		  display: none
+		}}

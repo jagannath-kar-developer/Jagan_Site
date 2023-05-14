@@ -139,3 +139,42 @@ a:hover{
 	font-size: 0.75rem;
 	padding-top: 10px;
 }
+
+
+
+
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+	.top-container {
+	  text-align: center;
+	}
+	.top-cloud, .bottom-cloud, .mount {
+	  display: none;
+	}
+  }
+  
+  /* For screens between 600px and 900px */
+  @media (min-width: 600px) and (max-width: 900px) {
+	.top-container {
+	  text-align: center;
+	}
+	.top-cloud, .bottom-cloud {
+	  display: none;
+	}
+  }
+  
+  
+  
+  
+  /* Responsive styles for the bottom container */
+  @media (max-width: 600px) {
+	.bottom-container {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.footer-link {
+	  margin: 10px 0;
+	}
+  }
+  

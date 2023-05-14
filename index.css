@@ -5,7 +5,7 @@
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 120%;
-		background-color: #FFDEB4;
+		background-color: #FFD95A;
 		color: #7D1E6A;
 	}
 
@@ -29,6 +29,13 @@
 		margin-right: 30px;
 	}
 
+	.image3{
+	    height: 35%;
+		width: 35%;
+		float: left;
+		margin-right: 30px;
+	}
+
 
 	h2{
 		font-family: 'Pacifico', cursive;
@@ -49,21 +56,21 @@
 	}
 
 	.top-container{
-		background-color: #FFDEB4;
+		background-color: #FFD95A;
 		position: relative;
 		padding: 100px;
-		margin: 0 auto;
+		margin: auto;
 	}
 
 	.middle-container{
 		background-color: #FFDEB4;
 		line-height: 2;
-		padding: 25px;
+		padding: 25px ;
 	}
 
 	.bottom-container{
-		background-color: #FFDEB4;
-		padding: 50px 0px 20px;
+		background-color: #FFD95A;
+		padding:40px 0px 40px 0px;
 		line-height: 3;
 	}
 
@@ -132,34 +139,58 @@
 
 	/* Responsive styles for small screens */
 	@media (max-width: 600px) {
+		.profilepic {
+			height: 75%;
+			width: 75%;
+		}
+
 		.top-container {
 		  text-align: center;
 		  padding: 50px;
 		}
-		.top-cloud, .bottom-cloud, .mount {
-		  display: none;
+		.top-cloud{
+			width: 70px;
+			position: absolute;
+			right: 70px;
+			top: 15px;
+		}
+		.mount{
+			width: 200px;
+		}
+
+		.bottom-cloud{
+			width:70px;
+			position: absolute;
+			left: 20px;
+			top: 100px;
 		}
 		.image1, .image2 {
-		
 			width: 220px;
-			
 			margin: auto;
+			float: none;
+		}
+		.image3{
+			width: 200px;
+			margin-bottom: auto;
 			float: none;
 		}
 	}
 
 
-		
+
 /* Responsive styles for very small screens */
 @media (max-width: 400px) {
 	.profilepic {
-		height: 15%;
-		width: 15%;
+		height: 75%;
+		width: 75%;
 	}
 	.image1, .image2 {
-		
 		width: 260px;
-		
+		margin-bottom: auto;
+		float: none;
+	}
+	.image3{
+		width: 200px;
 		margin-bottom: auto;
 		float: none;
 	}
@@ -171,4 +202,29 @@
 		width: 80%;
 		margin: 40px auto 60px;
 	}
-} 
+	.mount{
+	display: none;
+	}
+}
+
+
+/* Responsive styles for max width 800px */
+@media (max-width: 800px) {
+  .skill-row {
+    width: 80%;
+  }
+	.top-cloud{
+		position: absolute;
+		right: 70px;
+		top: 50px;
+	}
+	.bottom-cloud{
+		position: absolute;
+		left: 60px;
+		top: 400px;
+	}
+
+	.mount{
+		width: 350px;
+	}
+}

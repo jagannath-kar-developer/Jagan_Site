@@ -137,5 +137,38 @@
 		  padding: 50px;
 		}
 		.top-cloud, .bottom-cloud, .mount {
-		  display: none
-		}}
+		  display: none;
+		}
+		.image1, .image2 {
+		
+			width: 220px;
+			
+			margin: auto;
+			float: none;
+		}
+	}
+
+
+		
+/* Responsive styles for very small screens */
+@media (max-width: 400px) {
+	.profilepic {
+		height: 15%;
+		width: 15%;
+	}
+	.image1, .image2 {
+		
+		width: 260px;
+		
+		margin-bottom: auto;
+		float: none;
+	}
+	.skill-row {
+		width: 80%;
+		margin: 50px auto;
+	}
+	.contact-message {
+		width: 80%;
+		margin: 40px auto 60px;
+	}
+} 

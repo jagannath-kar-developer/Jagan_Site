@@ -1,0 +1,230 @@
+
+
+	body{
+		margin: 0;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 120%;
+		background-color: #FFD95A;
+		color: #7D1E6A;
+	}
+
+	.profilepic{
+		height: 25%;
+		width: 25%;
+		background-color: #FFDEB4;
+	}
+
+	.image1{
+	    height: 35%;
+		width: 35%;
+		float: left;
+		margin-right: 30px;
+	}
+
+	.image2{
+	    height: 35%;
+		width: 35%;
+		float: right;
+		margin-right: 30px;
+	}
+
+	.image3{
+	    height: 35%;
+		width: 35%;
+		float: left;
+		margin-right: 30px;
+	}
+
+
+	h2{
+		font-family: 'Pacifico', cursive;
+	}
+
+	h1{
+		font-family: 'Sacramento', cursive;
+		font-size: 4.625rem;
+		margin: 50px auto 0 auto;
+	}
+
+	h3{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	div{
+		background-color: #FFDEB4;
+	}
+
+	.top-container{
+		background-color: #FFD95A;
+		position: relative;
+		padding: 100px;
+		margin: auto;
+	}
+
+	.middle-container{
+		background-color: #FFDEB4;
+		line-height: 2;
+		padding: 25px ;
+	}
+
+	.bottom-container{
+		background-color: #FFD95A;
+		padding:40px 0px 40px 0px;
+		line-height: 3;
+	}
+
+	.dev{
+		text-decoration: underline;
+	}
+
+	.top-cloud{
+		position: absolute;
+		right: 200px;
+		top: 50px;
+	}
+
+	.bottom-cloud{
+		position: absolute;
+		left: 230px;
+		top: 400px;
+	}
+
+	.skill-row{
+		width: 50%;
+		margin: 100px auto;
+		text-align: left;
+		line-height: 4;
+	}
+
+	hr{
+		border: 5px dotted;
+		border-bottom: none;
+	    border-color: #DEBACE;
+	    width: 90%;
+	    margin: auto;
+	}
+
+	.contact-message{
+		width: 40%;
+		margin: 40px auto 60px;
+	}
+
+	a{
+		margin: 10px 20px;
+		text-decoration: none;
+		color: #606b39;
+	}
+
+	a:hover{
+		color: #FF8D29;
+	}
+
+	.btn {
+	  -webkit-border-radius: 28px;
+	  -moz-border-radius: 28px;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #606b39;
+	  font-size: 20px;
+	  background: #ccb731;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+	}
+
+	.btn:hover {
+	  background: #1aed60;
+	  text-decoration: none;
+	}
+
+	/* Responsive styles for small screens */
+	@media (max-width: 600px) {
+		.profilepic {
+			height: 75%;
+			width: 75%;
+		}
+
+		.top-container {
+		  text-align: center;
+		  padding: 50px;
+		}
+		.top-cloud{
+			width: 70px;
+			position: absolute;
+			right: 70px;
+			top: 15px;
+		}
+		.mount{
+			width: 200px;
+		}
+
+		.bottom-cloud{
+			width:70px;
+			position: absolute;
+			left: 20px;
+			top: 100px;
+		}
+		.image1, .image2 {
+			width: 220px;
+			margin: auto;
+			float: none;
+		}
+		.image3{
+			width: 200px;
+			margin-bottom: auto;
+			float: none;
+		}
+	}
+
+
+
+/* Responsive styles for very small screens */
+@media (max-width: 400px) {
+	.profilepic {
+		height: 75%;
+		width: 75%;
+	}
+	.image1, .image2 {
+		width: 260px;
+		margin-bottom: auto;
+		float: none;
+	}
+	.image3{
+		width: 200px;
+		margin-bottom: auto;
+		float: none;
+	}
+	.skill-row {
+		width: 80%;
+		margin: 50px auto;
+	}
+	.contact-message {
+		width: 80%;
+		margin: 40px auto 60px;
+	}
+	.mount{
+	display: none;
+	}
+}
+
+
+/* Responsive styles for max width 800px */
+@media (max-width: 800px) {
+  .skill-row {
+    width: 80%;
+  }
+	.top-cloud{
+		position: absolute;
+		right: 70px;
+		top: 50px;
+	}
+	.bottom-cloud{
+		position: absolute;
+		left: 60px;
+		top: 400px;
+	}
+
+	.mount{
+		width: 350px;
+	}
+}
